@@ -9,11 +9,11 @@ const CharactersByHero = ({ alter_ego, characters }) =>
 // eslint-disable-next-line react/prop-types
 export const HeroCard = ({ id, superhero, alter_ego, first_appearance, characters }) => {
 
-    const heroImage = `/assets/heroes/${id}.jpg`;
+    const heroImage = `/heroes/${id}.jpg`;
 
 
     return (
-        <div className="col">
+        <div className="col  animate__animated animate__fadeIn">
             <div className="card">
                 <div className="row no-gutters">
                     <div className="col-4">
